@@ -1,0 +1,18 @@
+Nav{
+    display: flex;
+    justify-content: right;
+    gap: 35px;
+    padding: 4rem;
+    background-color: turquoise;
+    padding: 1rem 2rem;
+        a {
+            color: white;
+            text-decoration: none;
+            &:hover {
+                color: blue;
+                background-color: aqua;
+                transition: 0.5s;
+                font-size: 20px;
+            }
+        }
+}
