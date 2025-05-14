@@ -1,4 +1,5 @@
 import Button from "./components/Button";
+import { Input } from "./components/Input";
 
 export default function ComponentName() {
   return (
@@ -10,12 +11,17 @@ export default function ComponentName() {
     <Button  class = 'btn-success' />
     <Button  class = 'btn-danger' />
     <hr />
+    <Input
+    required
+    placeholder="Obrigatório" 
+    />
     <button 
     type="submit"
     id="b1"
     name="b1"
     className="btn-success"
-    >Login</button>
+    >
+      Login</button>
     </>
   );
 }
